@@ -11,6 +11,13 @@
     <link href="./css/solid.min.css" rel="stylesheet" />
     <link rel="icon" href="./logo.png" />
     <title>hot gadget</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script
       src="https://kit.fontawesome.com/1e80e51183.js"
       crossorigin="anonymous"
@@ -40,10 +47,95 @@
         </li>
       </ul>
     </nav>
+    <!-- its carouel  -->
 
+    <div id="demo" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container d-flex align-items-center">
+            <div class="col-4">
+              <h1>Macbook Pro</h1>
+              <p>
+                Contrary to popular belief, Lorem ipsum dolor, sit amet
+                consectetur adipisicing elit. Magni, facilis reiciendis. Saepe
+                porro laboriosam consequatur, recusandae illum laudantium nihil.
+                Mollitia?
+              </p>
+              <div class="btn btn-info">
+                BUY NOW <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+            <div class="cus-bg col-8">
+              <img
+                class="img-fluid float-left mx-auto d-block cus-txtimg"
+                src="./bg-1.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container d-flex align-items-center">
+            <div class="col-4">
+              <h1>Macbook Pro</h1>
+              <p>
+                Contrary to popular belief, Lorem ipsum dolor, sit amet
+                consectetur adipisicing elit. Magni, facilis reiciendis. Saepe
+                porro laboriosam consequatur, recusandae illum laudantium nihil.
+                Mollitia?
+              </p>
+              <div class="btn btn-info">
+                BUY NOW <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+            <div class="cus-bg-2 col-8">
+              <img
+                class="img-fluid float-left mx-auto d-block cus-txtimg"
+                src="./bg-1.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container d-flex align-items-center">
+            <div class="col-4">
+              <h1>Macbook Pro</h1>
+              <p>
+                Contrary to popular belief, Lorem ipsum dolor, sit amet
+                consectetur adipisicing elit. Magni, facilis reiciendis. Saepe
+                porro laboriosam consequatur, recusandae illum laudantium nihil.
+                Mollitia?
+              </p>
+              <div class="btn btn-info">
+                BUY NOW <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+            <div class="cus-bg-3 col-8">
+              <img
+                class="img-fluid float-left mx-auto d-block cus-txtimg"
+                src="./bg-1.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
     <!-- carousel for ad -->
 
-    <div class="container d-flex align-items-center">
+    <!-- <div class="container d-flex align-items-center">
       <div class="col-4">
         <h1>Macbook Pro</h1>
         <p>
@@ -62,7 +154,7 @@
           alt=""
         />
       </div>
-    </div>
+    </div> -->
 
     <!-- card section for products price -->
 
@@ -198,7 +290,9 @@
       </div>
     </div>
     <div class="container">
-      <h3 class="title text-center font-weight-bold mt-5 underline">categories</h3>
+      <h3 class="title text-center font-weight-bold mt-5 underline">
+        categories
+      </h3>
 
       <div class="container cata d-flex align-items-center">
         <div class="col-6 row">
