@@ -19,6 +19,14 @@
   background-position: right;
 }
 
+.dotted{
+    position: relative;
+}
+.dottedbg{
+    position: absolute;
+    bottom: 0;
+}
+
 .cus-txtimg {
   transform: scale(80%);
   padding-left: 10%;
